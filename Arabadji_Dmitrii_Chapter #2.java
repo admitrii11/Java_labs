@@ -270,6 +270,6 @@ public class Main
             if (nums[i] > 0) countPos++;
         }
 
-        System.out.printf("%d negative %n%d positive %n%d zeros", countNeg, countZeros, countPos);
+        System.out.printf("%d negative %n%d zeros %n%d positive", countNeg, countZeros, countPos);
     }
 }
